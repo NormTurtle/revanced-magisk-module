@@ -1,13 +1,18 @@
-        
 [
   {
-    "patchName": "Custom branding YouTube name",
+    "patchName": "Custom branding icons & name",
     "options": [
       {
         "key": "YouTubeAppName",
         "value": "You0_ORev"
-      }
+      },
+      {
+        "key": "iconPath",
+        "value": "Icons\"
+      },
     ]
   }
 ]
         
+
+
