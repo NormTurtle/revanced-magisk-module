@@ -1,0 +1,13 @@
+logging-to-file = true        # enables logging of every patch process to a seperate file
+
+
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Omaru"
+apkmirror-arch = "arm64-v8a"
+version = "latest"
+included-patches = "custom-branding-icon-mmt custom-branding-icon-revancify-red force-premium-heading materialyou"
+excluded-patches = "custom-branding-icon-revancify-blue default-playback-speed disable-quic-protocol disable-auto-captions disable-hdr-video enable-tablet-mini-player force-opus-codec force-vp9-codec translations"
