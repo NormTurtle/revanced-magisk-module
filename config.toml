@@ -10,3 +10,12 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "O-Extended"
 included-patches = "add-splash-animation disable-landscape-mode custom-branding-icon-mmt force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter materialyou"
 excluded-patches = "custom-branding-icon-revancify-blue custom-package-name disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec translations"
+
+
+
+[Revanced]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+version = "latest"
+included-patches = "remove-player-controls-background"
+excluded-patches = "tablet-mini-player theme"
+

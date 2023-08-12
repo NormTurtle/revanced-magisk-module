@@ -9,6 +9,19 @@
       {
         "key": "YouTubeiconPath",
         "value": "revanced-magisk-module/icons"
+      },
+      {
+        "patchName": "Custom branding",
+        "options": [
+          {
+            "key": "appName",
+            "value": "YoRevaned"
+          },
+          {
+            "key": "iconPath",
+            "value": "revanced-magisk-module/icons"
+          }
+        ]
       }
     ]
   }
