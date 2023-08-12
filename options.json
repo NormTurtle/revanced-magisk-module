@@ -12,10 +12,6 @@
           {
             "key": "appName",
             "value": "YoRevaned"
-          },
-          {
-            "key": "iconPath",
-            "value": "revanced-magisk-module/icons"
           }
         ]
       }
