@@ -7,10 +7,6 @@
         "value": "Yomaru◑_◐Ext"
       },
       {
-        "key": "YouTubeiconPath",
-        "value": "revanced-magisk-module/icons"
-      },
-      {
         "patchName": "Custom branding",
         "options": [
           {
