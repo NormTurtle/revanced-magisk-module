@@ -7,14 +7,5 @@
         "value": "Yomaru◑_◐Ext"
       }
     ]
-  },
-  {
-    "patchName": "Theme",
-    "options": [
-      {
-        "key": "darkThemeBackgroundColor",
-        "value": "#121212."
-      }
-    ]
   }
 ]
