@@ -5,12 +5,6 @@
       { "key": "appName", "value": "YomaruExt" },
       { "key": "iconPath", "value": "revanced-magisk-module/icons" } 
     ]
-  },
-  {
-    "patchName": "Theme",
-    "options": [
-      { "key": "darkThemeBackgroundColor", "value": "#121212" }
-    ]
-  }
+ }
 ]
         
