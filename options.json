@@ -7,5 +7,14 @@
         "value": "Yomaru-_-Ext"
       }
     ]
+  },
+  {
+    "patchName": "Custom package name",
+    "options": [
+      {
+        "key": "YouTubePackageName",
+        "value": "Yomaru^o^"
+      }
+    ]
   }
 ]
