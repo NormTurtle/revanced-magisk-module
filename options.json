@@ -1,9 +1,15 @@
 [
   {
     "patchName": "Custom branding YouTube name",
-    "options": [ 
-      { "key": "YouTubeAppName", "value": "Yomaru◑_◐Ext" },
-      { "key": "YouTubeiconPath", "value": "revanced-magisk-module/icons" } 
+    "options": [
+      {
+        "key": "YouTubeAppName",
+        "value": "Yomaru◑_◐Ext"
+      },
+      {
+        "key": "YouTubeiconPath",
+        "value": "revanced-magisk-module/icons"
+      }
     ]
   }
 ]
