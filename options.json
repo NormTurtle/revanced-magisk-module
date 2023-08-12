@@ -4,16 +4,16 @@
     "options": [
       {
         "key": "YouTubeAppName",
-        "value": "Yomaru-_-Ext"
+        "value": "Yomaru◑_◐Ext"
       }
     ]
   },
   {
-    "patchName": "Custom package name",
+    "patchName": "Theme",
     "options": [
       {
-        "key": "YouTubePackageName",
-        "value": "Youtube"
+        "key": "darkThemeBackgroundColor",
+        "value": "#121212."
       }
     ]
   }
