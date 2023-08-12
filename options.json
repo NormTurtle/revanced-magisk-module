@@ -1,9 +1,20 @@
 [
   {
     "patchName": "Custom branding YouTube name",
-    "options": [ { "key": "YouTubeAppName", "value": "Yomaru-_-Ext" } ] },
+    "options": [
+      {
+        "key": "YouTubeAppName",
+        "value": "Yomaru-_-Ext"
+      }
+    ]
+  },
   {
     "patchName": "Custom package name",
-    "options": [ { "key": "YouTubePackageName", "value": "d" } ]
+    "options": [
+      {
+        "key": "YouTubePackageName",
+        "value": "Youtube"
+      }
+    ]
   }
 ]
