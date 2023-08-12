@@ -1,10 +1,2 @@
-[
-  {
-    "patchName": "Custom branding",
-    "options": [ 
-      { "key": "appName", "value": "YomaruExt" },
-      { "key": "iconPath", "value": "revanced-magisk-module/icons" } 
-    ]
- }
-]
+[]
         
