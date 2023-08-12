@@ -33,6 +33,6 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-version = "latest"
+version = "auto"
 included-patches = "remove-player-controls-background"
 
