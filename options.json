@@ -4,6 +4,6 @@
     "options": [ { "key": "YouTubeAppName", "value": "Yomaru-_-Ext" } ] },
   {
     "patchName": "Custom package name",
-    "options": [ { "key": "YouTubePackageName", "value": "Yomaru" } ]
+    "options": [ { "key": "YouTubePackageName", "value": "d" } ]
   }
 ]
