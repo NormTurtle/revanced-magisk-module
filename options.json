@@ -1,12 +1,37 @@
-[[patch]]
-patchName = "Custom branding"
-options = [
-  { key = "appName", value = "Yomaru-_-Ext" },
-  { key = "iconPath", value = "./revanced-magisk-module/icons/" }
-]
+[
 
-[[patch]]
-patchName = "Theme"
-options = [
-  { key = "darkThemeBackgroundColor", value = "#121212" }
+        
+[
+  {
+    "patchName": "Custom branding",
+    "options": [
+      {
+        "key": "appName",
+        "value": "Yomaru-_-Ext"
+      },
+      {
+        "key": "iconPath",
+        "value": "revanced-magisk-module\icons"
+      }
+    ]
+  },
+  {
+    "patchName": "Theme",
+    "options": [
+      {
+        "key": "darkThemeBackgroundColor",
+        "value": "#121212"
+      }
+    ]
+  }
+]
+        
+
+
+
+
+
+
+
+
 ]
