@@ -2,20 +2,36 @@ logging-to-file = true        # enables logging of every patch process to a sepe
 enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
 
 
-[RvX]
+# [RvX]
+# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+# patches-source = "inotia00/revanced-patches"
+# integrations-source = "inotia00/revanced-integrations"
+# cli-source = "inotia00/revanced-cli"
+# rv-brand = "O-Extended"
+# included-patches = "add-splash-animation disable-landscape-mode custom-branding-icon-mmt force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter materialyou"
+# excluded-patches = "custom-branding-icon-revancify-blue custom-package-name disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec translations"
+
+
+
+# [Revanced]
+# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+# version = "latest"
+# included-patches = "remove-player-controls-background"
+# excluded-patches = "tablet-mini-player theme"
+
+
+[ReX]
+app-name = "whotube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "O-Extended"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
+cli-source = "j-hc/revanced-cli"
+rv-brand = "YouTube Advanced"
+# patches-source = "inotia00/revanced-patches"
+# integrations-source = "inotia00/revanced-integrations"
+# cli-source = "inotia00/revanced-cli"
+# rv-brand = "O-Extended"
 included-patches = "add-splash-animation disable-landscape-mode custom-branding-icon-mmt force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter materialyou"
 excluded-patches = "custom-branding-icon-revancify-blue custom-package-name disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec translations"
 
-
-
-[Revanced]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-version = "latest"
-included-patches = "remove-player-controls-background"
-excluded-patches = "tablet-mini-player theme"
 
