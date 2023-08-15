@@ -22,6 +22,13 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
+same
+same
+same
+same
+same
+same
+
 # [YouTube]
 # build-mode = "apk"                                                   # 'both', 'apk' or 'module'
 # excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
