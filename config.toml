@@ -20,7 +20,7 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 # excluded-patches = "tablet-mini-player theme"
 #
 #
-# [ReX]
+[ReX]
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "inotia00/revanced-cli" # use this one till YT-Advanced updates it 
