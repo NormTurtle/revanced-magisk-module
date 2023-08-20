@@ -27,10 +27,10 @@ integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "inotia00/revanced-cli" # use this one till YT-Advanced updates it
 # cli-source = "j-hc/revanced-cli"  # only supprot Rvx
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-included-patches = "add-splash-animation hide-end-screen-overlay hide-navigation-buttons hide-player-button-background hide-navigation-label hide-end-screen-overlay enable-new-thumbnail-preview custom-branding-icon-mmt enable-new-splash-animation force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter language-switch optimize-resource materialyou"
+included-patches = "amoled hide-end-screen-overlay hide-navigation-buttons hide-player-button-background hide-navigation-label hide-end-screen-overlay enable-new-thumbnail-preview custom-branding-icon-mmt enable-new-splash-animation force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter language-switch optimize-resource materialyou"
 excluded-patches = "custom-branding-icon-revancify-blue disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec translations"
-
-
+  
+    
 
 # [Music-Extended]
 # app-name = "Music"
