@@ -6,7 +6,7 @@ Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for
 
 ---
 Changelog:  
-CLI: j-hc/revanced-cli-3.1.0-all.jar  
+CLI: YT-Advanced/revanced-cli-3.1.0-all.jar  
 Integrations: YT-Advanced/revanced-integrations-0.118.0.apk  
 Patches: YT-Advanced/revanced-patches-2.190.0.jar  
 
