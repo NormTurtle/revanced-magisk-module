@@ -35,17 +35,17 @@ excluded-patches = "custom-branding-icon-revancify-blue disable-quic-protocol en
 #   custom-branding-icon-revancify-red
 
     
-
-# [Music-Extended]
+[Music-Extended]
 # enabled = false
-# app-name = "Music"
-# patches-source = "YT-Advanced/ReX-patches"
-# integrations-source = "YT-Advanced/ReX-integrations"
+ app-name = "Music"
+ patches-source = "YT-Advanced/ReX-patches"
+ integrations-source = "YT-Advanced/ReX-integrations"
 # cli-source = "inotia00/revanced-cli"
-# rv-brand = "ReVanced Extended"
-# build-mode = "both"
-# excluded-patches = "custom-branding-icon-revancify-blue"
-# included-patches = "custom-branding-icon-mmt"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-# apkmirror-arch = "both"
-#
+ cli-source = "YT-Advanced/revanced-cli" 
+ rv-brand = "ReVanced Extended"
+ build-mode = "both"
+ excluded-patches = "custom-branding-icon-revancify-blue"
+ included-patches = "custom-branding-icon-mmt"
+ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+ apkmirror-arch = "both"
+
