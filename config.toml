@@ -1,8 +1,8 @@
 #          ╭──────────────────────────────────────────────────────────╮
 #          │ config                                                   │
 #          ╰──────────────────────────────────────────────────────────╯
-logging-to-file = true        # enables logging of every patch process to a seperate file
-enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
+logging-to-file = true       # enables logging of every patch process to a seperate file
+enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
 
 ### OLD STUFF            | Rvx = Revanced Extended
 # [RvX]
@@ -13,7 +13,6 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 # rv-brand = "O-Extended"
 # included-patches = "add-splash-animation disable-landscape-mode custom-branding-icon-mmt force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter materialyou"
 # excluded-patches = "custom-branding-icon-revancify-blue custom-package-name disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec translations"
-
 
 
 # [Revanced]
@@ -27,25 +26,22 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 rv-brand = "O-Advanced"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
-cli-source = "YT-Advanced/revanced-cli" # use this one till YT-Advanced updates it
+cli-source = "YT-Advanced/revanced-cli"              # use this one till YT-Advanced updates it
 # cli-source = "j-hc/revanced-cli"  # only supprot Rvx
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 included-patches = "higher-seekbar-height amoled custom-branding-icon-mmt hide-end-screen-overlay hide-navigation-buttons hide-player-button-background hide-navigation-label hide-end-screen-overlay enable-new-thumbnail-preview  enable-new-splash-animation force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter language-switch optimize-resource materialyou"
 excluded-patches = "custom-branding-icon-revancify-blue disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec translations"
 #   custom-branding-icon-revancify-red
 
-    
-[Music-Extended]
-# enabled = false
- app-name = "Music"
- patches-source = "YT-Advanced/ReX-patches"
- integrations-source = "YT-Advanced/ReX-integrations"
-# cli-source = "inotia00/revanced-cli"
- cli-source = "YT-Advanced/revanced-cli" 
- rv-brand = "ReVanced Extended"
- build-mode = "both"
- excluded-patches = "custom-branding-icon-revancify-blue"
- included-patches = "custom-branding-icon-mmt"
- apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
- apkmirror-arch = "both"
 
+[Music-Extended]
+enabled = true
+app-name = "Music"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
+cli-source = "YT-Advanced/revanced-cli"
+rv-brand = "ReVanced Extended"
+# build-mode = "both"
+excluded-patches = "custom-branding-icon-revancify-blue"
+included-patches = "custom-branding-icon-mmt"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
