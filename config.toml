@@ -22,8 +22,9 @@ enable-magisk-update = false # set this to false if you do not want to receive u
 # excluded-patches = "tablet-mini-player theme"
 #
 #
+
 [ReX]
-rv-brand = "O-Advanced"
+rv-brand = "O-Xvanced"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "YT-Advanced/revanced-cli"              # use this one till YT-Advanced updates it
@@ -34,14 +35,13 @@ excluded-patches = "custom-branding-icon-revancify-blue disable-quic-protocol en
 #   custom-branding-icon-revancify-red
 
 
-[Music-Extended]
-enabled = true
-app-name = "Music"
+[Music-X]
+rv-brand = "O-Music-Xvanced"
+# enabled = true
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+# app-name = "Music"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "YT-Advanced/revanced-cli"
-rv-brand = "ReVanced Extended"
-# build-mode = "both"
+included-patches = "custom-branding-icon-mmt compact-header permanent-repeat permanent-shuffle"
 excluded-patches = "custom-branding-icon-revancify-blue"
-included-patches = "custom-branding-icon-mmt"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
