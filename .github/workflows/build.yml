@@ -105,7 +105,7 @@ jobs:
       - name: Upload Assets 
         uses: svenstaro/upload-release-action@v2
         with:
-          file: "revanced-magisk-module\assets\test.json"
+          file: "revanced-magisk-module/assets/test.json"
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           body: "This is my assets upload TExt"
           asset_name: "ReX Config.json"
