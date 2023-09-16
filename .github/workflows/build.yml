@@ -65,9 +65,9 @@ jobs:
       - name: Upload Assets 
         uses: svenstaro/upload-release-action@v2
         with:
-          file: ./assets/*
+          file: ./assets/y*
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          body: "This is my assets upload TExt"
+         # body: "This is my assets upload TExt"
           asset_name: "ReX Config.json"
           tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
           # file_glob: true
