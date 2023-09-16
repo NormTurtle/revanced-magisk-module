@@ -1,6 +1,6 @@
 RvX: 18.31.40  
 ReX: 18.35.36  
-Spotify: 8.8.68.565  
+Spotify: 8.8.70.532  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
