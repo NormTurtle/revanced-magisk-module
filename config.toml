@@ -15,10 +15,10 @@ build-mindetach-module = false
 rv-brand = "O-EXvanced"
 # apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-apkmirror-arch = "arm64-v8a"
+uptodown-arch = "arm64-v8a"
 version = "auto"                                           # latest, auto
-included-patches = "remove-player-controls-background"
-excluded-patches = "tablet-mini-player theme"
+included-patches = "remove-player-controls-background "
+excluded-patches = "tablet-mini-player theme "
 #
 # #  ╭─────────────────────────╮
 # #  │ Revanced Extenends here │       RVX
