@@ -53,7 +53,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           file: revanced-magisk-module/assets/*
-          # file_glob: true
+          file_glob: true
           # overwrite: true
           
       - name: Upload modules to release
