@@ -27,9 +27,10 @@ build-mindetach-module = false
 #  ╰─────────────────────────╯
 
 [RvX] # RVX = Revanced Extended
-rv-brand = "Extended"
-app-name = "YomaruExt"
-exclusive-patches = true                               # exclude all patches by default. default: false
+rv-brand = "-Extended"
+app-name = "-YomaruExt"
+exclusive-patches = true # exclude all patches by default. default: false
+version = "auto"                                        # latest, auto
 build-mode = "apk"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
