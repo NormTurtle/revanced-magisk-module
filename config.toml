@@ -1,7 +1,7 @@
 #          ╭──────────────────────────────────────────────────────────╮
 #          │ config                                                   │
 #          ╰──────────────────────────────────────────────────────────╯
-logging-to-file = true        # enables logging of every patch process to a seperate file
+logging-to-file = true         # enables logging of every patch process to a seperate file
 enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
 build-mindetach-module = false
 
@@ -31,15 +31,15 @@ included-patches = "add-splash-animation disable-landscape-mode custom-branding-
 excluded-patches = "custom-branding-icon-revancify-blue custom-package-name disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec translations"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
-[M_Rex] 
-app-name = "O_EX-inotia00"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "apk"
+# [MusicRex]
+# app-name = "O_EX"
+# patches-source = "inotia00/revanced-patches"
+# integrations-source = "inotia00/revanced-integrations"
+# cli-source = "inotia00/revanced-cli"
+# rv-brand = "ReVanced Extended"
+# build-mode = "apk"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+# apkmirror-arch = "apk"
 
 # [YouTube-Extended]
 # patches-source = "inotia00/revanced-patches"
@@ -68,16 +68,15 @@ excluded-patches = "custom-branding-icon-revancify-blue disable-quic-protocol en
 
 
 [Music-X] # Music - Advanced  YT-Advanced
-rv-brand = "O-Music-Advanced"
-enabled = true
+# rv-brand = "O-Music-Advanced"
+# enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-app-name = "O_X-Music"
+app-name = "OxMusic"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "YT-Advanced/revanced-cli"
-included-patches = "custom-branding-icon-mmt "
-excluded-patches = "custom-branding-icon-revancify-blue"
-
+excluded-patches = " "
+included-patches = " "
 
 
 #  ╭──────────────╮
@@ -86,4 +85,3 @@ excluded-patches = "custom-branding-icon-revancify-blue"
 [Spotify] # for testing purpose only
 enabled = true
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-
