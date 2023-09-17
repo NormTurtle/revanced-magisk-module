@@ -31,7 +31,7 @@ app-name = "Yo-maru-Ext" # commes first in file naming
 # rv-brand = "Extended"    # comes secodn in file naming
 # exclusive-patches = true                               # exclude all patches by default. default: false
 # version = "auto"                                       # latest, auto
-version = "18.23.35"                                   # latest, auto
+version = "18.32.39"                                   # latest, auto
 build-mode = "apk"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -41,7 +41,7 @@ cli-source = "inotia00/revanced-cli"
 # apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 # uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-apkmirror-arch = "arm64-v8a"
+# apkmirror-arch = "arm64-v8a"   # its giving error on most
 #
 # [MusicRex]
 # # rv-brand = "Extended-Muxik"
@@ -69,8 +69,8 @@ cli-source = "YT-Advanced/revanced-cli"              # use this one till YT-Adva
 # apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 # uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-apkmirror-arch = "arm64-v8a"
-version = "18.23.35"
+# apkmirror-arch = "arm64-v8a"   # its giving error on most
+version = "18.32.39"
 included-patches = "higher-seekbar-height amoled custom-branding-icon-mmt hide-end-screen-overlay hide-navigation-buttons hide-player-button-background hide-navigation-label hide-end-screen-overlay enable-new-thumbnail-preview  enable-new-splash-animation force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter language-switch optimize-resource translations materialyou"
 excluded-patches = "custom-branding-icon-revancify-blue disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec "
 #
