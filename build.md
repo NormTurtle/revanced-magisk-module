@@ -1,5 +1,6 @@
 RvX: 18.32.39  
 ReX: 18.32.39  
+Music-X: 6.17.52  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
