@@ -27,10 +27,11 @@ build-mindetach-module = false
 #  ╰─────────────────────────╯
 
 [RvX] # RVX = Revanced Extended
-rv-brand = "Extended"
-app-name = "-YomaruExt"
-exclusive-patches = true # exclude all patches by default. default: false
-version = "auto"                                        # latest, auto
+app-name = "Yo-maru-Ext" # commes first in file naming
+# rv-brand = "Extended"    # comes secodn in file naming
+# exclusive-patches = true                               # exclude all patches by default. default: false
+# version = "auto"                                       # latest, auto
+version = "18.32.39"                                   # latest, auto
 build-mode = "apk"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -57,14 +58,15 @@ apkmirror-arch = "arm64-v8a"
 # #  │ ReVanced Advanced │
 # #  ╰───────────────────╯
 #
- [ReX] # ReX = Revanced Advanced
+[ReX] # ReX = Revanced Advanced
 rv-brand = "YO-ADvanced"
- app-name = "YouTube"
+app-name = "YouTube"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "YT-Advanced/revanced-cli"              # use this one till YT-Advanced updates it
 # cli-source = "j-hc/revanced-cli"  # only supprot Rvx
- # apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 apkmirror-arch = "arm64-v8a"
 version = "18.32.39"
