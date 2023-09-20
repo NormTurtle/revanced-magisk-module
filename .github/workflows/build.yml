@@ -59,7 +59,7 @@ jobs:
           file: ./build/*
           release_name: ReVancedEx
           tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
-          file_glob: false
+          file_glob: true
           overwrite: true
 
       - name: Upload Assets 
