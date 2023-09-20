@@ -59,7 +59,7 @@ jobs:
           file: ./build/*
           release_name: ReVancedEx
           tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
-          file_glob: true
+          file_glob: false
           overwrite: true
 
       - name: Upload Assets 
@@ -68,7 +68,7 @@ jobs:
           file: "assets/Config.json"
           repo_token: ${{ secrets.GITHUB_TOKEN }}
          # body: "This is my assets upload TExt"
-          asset_name: "ReX Config.json"
+          asset_name: "Config.json"
           tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
           # file_glob: true
           overwrite: true
