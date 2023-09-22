@@ -11,15 +11,15 @@ build-mindetach-module = true
 #  ╭──────────╮
 #  │ Revanced │       
 #  ╰──────────╯
-# [Revanced] # Normal Revanced
+[Revanced] # Normal Revanced
 # rv-brand = "O-Vanced"
-# exclusive-patches = true # exclude all patches by default. default: false
-# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-# uptodown-arch = "arm64-v8a"
-# version = "auto"                                        # latest, auto
+exclusive-patches = true                                          # exclude all patches by default. default: false
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+uptodown-arch = "arm64-v8a"
+version = "18.32.39"                                              # latest, auto
 # included-patches = "remove-player-controls-background "
-# excluded-patches = "tablet-mini-player theme "
+excluded-patches = "tablet-mini-player theme "
 
 # #  ╭───────────────────╮
 # #  │ ReVanced Advanced │                # now DEAD
@@ -61,33 +61,33 @@ build-mindetach-module = true
 #  │ Revanced Extenends here │       RVX
 #  ╰─────────────────────────╯
 
-[RvX] # RVX = Revanced Extended
-app-name = "Yomaru-Ext" # commes first in file naming
-# rv-brand = "Extended"    # comes secodn in file naming
-# exclusive-patches = true                               # exclude all patches by default. default: false
-version = "18.31.40"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             # latest or auto
-build-mode = "both"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              # apk = "apk" or magisk zip = "module"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-included-patches = "bypass-ambient-mode-restrictions custom-branding-icon-mmt custom-branding-youtube-name custom-double-tap-length custom-package-name default-video-quality custom-playback-speed disable-haptic-feedback disable-hdr-video disable-pip-notification disable-quic-protocol disable-shorts-on-startup enable-compact-controls-overlay enable-external-browser enable-minimized-playback enable-new-comment-popup-panels enable-new-splash-animation enable-new-thumbnail-preview enable-old-quality-layout enable-open-links-directly enable-seekbar-tapping append-time-stamps-information enable-wide-search-bar force-hide-player-button-background force-premium-heading header-switch force-opus-codec force-vp9-codec hide-account-menu hide-auto-player-popup-panels hide-autoplay-button hide-button-container hide-category-bar hide-cast-button hide-channel-watermark hide-collapse-button hide-comment-component hide-crowdfunding-box hide-description-components hide-double-tap-overlay-filter hide-handle hide-endscreen-cards hide-endscreen-overlay hide-feed-flyout-panel hide-filmstrip-overlay hide-floating-microphone hide-fullscreen-panels hide-general-ads hide-video-ads hide-info-cards hide-latest-videos-button hide-layout-components hide-mix-playlists hide-music-button hide-navigation-buttons hide-navigation-label hide-player-button-background hide-player-flyout-panel hide-player-overlay-filter hide-previous-next-button hide-quick-actions hide-seek-message hide-shorts-components hide-snack-bar hide-speed-overlay hide-suggested-actions hide-suggested-video-overlay hide-suggestions-shelf hide-time-stamp hide-tooltip-content hide-trending-searches language-switch layout-switch microg-support materialyou overlay-buttons return-youtube-dislike settings sponsorblock spoof-app-version spoof-player-parameters swipe-controls theme "
-# add-splash-animation dosen't work with custom-branding-icon
-excluded-patches = " custom-branding-icon-revancify-blue custom-branding-icon-revancify-red custom-seekbar-color disable-auto-captions disable-landscape-mode enable-debug-logging enable-tablet-mini-player enable-tablet-navigation-bar hide-autoplay-preview hide-captions-button hide-channel-avatar-section hide-load-more-button hide-seekbar translations "
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-# apkmirror-arch = "arm64-v8a"   # its giving error on most
+# [RvX] # RVX = Revanced Extended
+# app-name = "Yomaru-Ext" # commes first in file naming
+# # rv-brand = "Extended"    # comes secodn in file naming
+# # exclusive-patches = true                               # exclude all patches by default. default: false
+# version = "18.31.40"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             # latest or auto
+# build-mode = "both"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              # apk = "apk" or magisk zip = "module"
+# patches-source = "inotia00/revanced-patches"
+# integrations-source = "inotia00/revanced-integrations"
+# cli-source = "inotia00/revanced-cli"
+# included-patches = "bypass-ambient-mode-restrictions custom-branding-icon-mmt custom-branding-youtube-name custom-double-tap-length custom-package-name default-video-quality custom-playback-speed disable-haptic-feedback disable-hdr-video disable-pip-notification disable-quic-protocol disable-shorts-on-startup enable-compact-controls-overlay enable-external-browser enable-minimized-playback enable-new-comment-popup-panels enable-new-splash-animation enable-new-thumbnail-preview enable-old-quality-layout enable-open-links-directly enable-seekbar-tapping append-time-stamps-information enable-wide-search-bar force-hide-player-button-background force-premium-heading header-switch force-opus-codec force-vp9-codec hide-account-menu hide-auto-player-popup-panels hide-autoplay-button hide-button-container hide-category-bar hide-cast-button hide-channel-watermark hide-collapse-button hide-comment-component hide-crowdfunding-box hide-description-components hide-double-tap-overlay-filter hide-handle hide-endscreen-cards hide-endscreen-overlay hide-feed-flyout-panel hide-filmstrip-overlay hide-floating-microphone hide-fullscreen-panels hide-general-ads hide-video-ads hide-info-cards hide-latest-videos-button hide-layout-components hide-mix-playlists hide-music-button hide-navigation-buttons hide-navigation-label hide-player-button-background hide-player-flyout-panel hide-player-overlay-filter hide-previous-next-button hide-quick-actions hide-seek-message hide-shorts-components hide-snack-bar hide-speed-overlay hide-suggested-actions hide-suggested-video-overlay hide-suggestions-shelf hide-time-stamp hide-tooltip-content hide-trending-searches language-switch layout-switch microg-support materialyou overlay-buttons return-youtube-dislike settings sponsorblock spoof-app-version spoof-player-parameters swipe-controls theme "
+# # add-splash-animation dosen't work with custom-branding-icon
+# excluded-patches = " custom-branding-icon-revancify-blue custom-branding-icon-revancify-red custom-seekbar-color disable-auto-captions disable-landscape-mode enable-debug-logging enable-tablet-mini-player enable-tablet-navigation-bar hide-autoplay-preview hide-captions-button hide-channel-avatar-section hide-load-more-button hide-seekbar translations "
+# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+# # apkmirror-arch = "arm64-v8a"   # its giving error on most
 
-[MusicRex]
-rv-brand = "YTM"
-# app-name = "MoMaru"
-module-prop-name = "ytm-rvx"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-apkmirror-arch = "arm64-v8a"
+# [MusicRex]
+# rv-brand = "YTM"
+# # app-name = "MoMaru"
+# module-prop-name = "ytm-rvx"
+# patches-source = "inotia00/revanced-patches"
+# integrations-source = "inotia00/revanced-integrations"
+# cli-source = "inotia00/revanced-cli"
+# build-mode = "both"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+# uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+# apkmirror-arch = "arm64-v8a"
 
 
 #  ╭──────────────╮
