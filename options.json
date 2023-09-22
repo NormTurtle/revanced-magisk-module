@@ -12,7 +12,7 @@
     "patchName": "Custom YouTube icon",
     "options": [
       {
-        "key": "YouTubeIconPath",
+        "key": "iconPath",
         "value": "./icons/"
       }
     ]

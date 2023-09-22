@@ -13,7 +13,7 @@ build-mindetach-module = true
 #  ╰──────────╯
 [Revanced] # Normal Revanced
 # rv-brand = "O-Vanced"
-exclusive-patches = true                                          # exclude all patches by default. default: false
+# exclusive-patches = true                                          # exclude all patches by default. default: false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 uptodown-arch = "arm64-v8a"
