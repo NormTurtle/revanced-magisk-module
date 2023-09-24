@@ -11,35 +11,35 @@ build-mindetach-module = true
 #  ╭──────────╮
 #  │ Revanced │       
 #  ╰──────────╯
-[Revanced] # Normal Revanced
+#[Revanced] # Normal Revanced
 # rv-brand = "O-Vanced"
 # exclusive-patches = true                                          # exclude all patches by default. default: false
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-uptodown-arch = "arm64-v8a"
-version = "18.32.39"                                              # latest, auto
+#apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+#uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+#uptodown-arch = "arm64-v8a"
+#version = "18.32.39"                                              # latest, auto
 # included-patches = "remove-player-controls-background "
-excluded-patches = "tablet-mini-player theme "
+#excluded-patches = "tablet-mini-player theme "
 
 # #  ╭───────────────────╮
 # #  │ ReVanced Advanced │                # now DEAD
 # #  ╰───────────────────╯
 #
-# [ReX] # ReX = Revanced Advanced
-# rv-brand = "YT-ADvanced"
-# # app-name = "YouTube" 1st noneeded
-# patches-source = "YT-Advanced/ReX-patches"
-# integrations-source = "YT-Advanced/ReX-integrations"
-# cli-source = "YT-Advanced/revanced-cli"              # use this one till YT-Advanced updates it
+ [ReX] # ReX = Revanced Advanced
+rv-brand = "YT-ADvanced"
+  app-name = "YouTube" 1st noneeded
+ patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
+ cli-source = "YT-Advanced/revanced-cli"              # use this one till YT-Advanced updates it
 # # cli-source = "j-hc/revanced-cli"  # only supprot Rvx
 # # apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 # # uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # # apkmirror-arch = "arm64-v8a"   # its giving error on most
-# version = "18.32.39"
+ version = "18.32.39"
 # # build-mode = "both"
-# included-patches = "higher-seekbar-height amoled custom-branding-icon-mmt hide-end-screen-overlay hide-navigation-buttons hide-player-button-background hide-navigation-label hide-end-screen-overlay enable-new-thumbnail-preview  enable-new-splash-animation force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter language-switch  translations materialyou"
-# excluded-patches = "custom-branding-icon-revancify-blue disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec "
+ included-patches = "higher-seekbar-height amoled custom-branding-icon-mmt hide-end-screen-overlay hide-navigation-buttons hide-player-button-background hide-navigation-label hide-end-screen-overlay enable-new-thumbnail-preview  enable-new-splash-animation force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter language-switch  translations materialyou"
+ excluded-patches = "custom-branding-icon-revancify-blue disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec "
 #
 
 # [Music-X] # Music - Advanced  YT-Advanced
