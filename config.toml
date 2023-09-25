@@ -2,6 +2,7 @@
 #          │ config                                                   │
 #          ╰──────────────────────────────────────────────────────────╯
 parallel-jobs = 3
+parallel-jobs = 1
 logging-to-file = true        # enables logging of every patch process to a seperate file
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 build-mindetach-module = true
