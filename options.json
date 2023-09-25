@@ -7,14 +7,5 @@
         "value": "YouTube_Advanced"
       }
     ]
-  },
-  {
-    "patchName": "Custom YouTube icon",
-    "options": [
-      {
-        "key": "iconPath",
-        "value": "./icons/"
-      }
-    ]
   }
 ]

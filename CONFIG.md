@@ -10,6 +10,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/inc/app"
 
 ## More about other options:
 
+  { "patchName": "Custom YouTube icon", "options": [ { "key": "iconPath", "value": "./icons/" } ] }
 There exists an example below with all defaults shown and all the keys explicitly set.  
 **All keys are optional** (except download urls) and are assigned to their default values if not set explicitly.  
 
