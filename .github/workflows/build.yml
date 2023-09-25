@@ -65,13 +65,6 @@ jobs:
       - name: Upload Assets 
         uses: svenstaro/upload-release-action@v2
         with:
-<<<<<<< HEAD
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./assets/*
-          file_glob: true
-          overwrite: true
-
-=======
           file: "assets/Config.json"
           repo_token: ${{ secrets.GITHUB_TOKEN }}
          # body: "This is my assets upload TExt"
@@ -80,7 +73,6 @@ jobs:
           # file_glob: true
           overwrite: true
           
->>>>>>> refs/remotes/origin/main
       - name: Update changelog and Magisk update json
         id: update_config
         run: |
@@ -118,7 +110,6 @@ jobs:
           file_pattern: build.md *-update.json
           commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
 
-<<<<<<< HEAD
       - name: Report to Telegram
         env:
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
@@ -158,8 +149,6 @@ jobs:
           POST="https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
           curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "disable_web_page_preview=true" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "$POST"
 
-=======
->>>>>>> refs/remotes/origin/main
       - uses: actions/upload-artifact@v3
         with:
           name: logs
