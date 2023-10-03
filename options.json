@@ -3,7 +3,7 @@
     "patchName": "Custom YouTube name",
     "options": [
       {
-        "key": "YouTubeAppName",
+        "key": "YouTubeappName",
         "value": "YoMaruExT"
       }
     ]
