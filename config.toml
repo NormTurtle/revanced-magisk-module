@@ -60,7 +60,7 @@ build-mindetach-module = true
 app-name = "Yomaru-Ext" # commes first in file naming
 # rv-brand = "Extended"    # comes secodn in file naming
 # exclusive-patches = true                               # exclude all patches by default. default: false
-version = "18.33.40"         # latest or auto
+version = "18.32.39"         # latest or auto
 # build-mode = "both"          # apk = "apk" or magisk zip = "module"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
