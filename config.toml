@@ -1,7 +1,3 @@
-#          ╭──────────────────────────────────────────────────────────╮
-#          │ config                                                   │
-#          ╰──────────────────────────────────────────────────────────╯
-parallel-jobs = 3
 logging-to-file = true        # enables logging of every patch process to a seperate file
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 build-mindetach-module = true
@@ -40,6 +36,14 @@ build-mindetach-module = true
 # included-patches = "higher-seekbar-height amoled custom-branding-icon-mmt hide-end-screen-overlay hide-navigation-buttons hide-player-button-background hide-navigation-label hide-end-screen-overlay enable-new-thumbnail-preview  enable-new-splash-animation force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter language-switch  translations materialyou"
 # excluded-patches = "custom-branding-icon-revancify-blue disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec "
 #
+=======
+[YouTube]
+build-mode = "both"                                                   # 'both', 'apk' or 'module'
+excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
+included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
+version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+>>>>>>> upstream/main
 
 # [Music-X] # Music - Advanced  YT-Advanced
 # rv-brand = "O-Music-Advanced"
@@ -73,6 +77,7 @@ included-patches = " custom-speed-overlay alternative-thumbnails bypass-ambient-
 # add-splash-animation dosen't work with custom-branding-icon
 excluded-patches = " custom-branding-icon-revancify-blue custom-branding-icon-revancify-red custom-seekbar-color disable-auto-captions disable-landscape-mode enable-debug-logging enable-tablet-mini-player enable-tablet-navigation-bar hide-autoplay-preview hide-captions-button hide-channel-avatar-section hide-load-more-button hide-seekbar translations "
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # apkmirror-arch = "arm64-v8a"   # its giving error on most
 
