@@ -57,8 +57,8 @@ build-mindetach-module = true
 #  ╰─────────────────────────╯
 
 [RvX] # RVX = Revanced Extended
-app-name = "Yomaru-Ext" # commes first in file naming
-# rv-brand = "Extended"    # comes secodn in file naming
+app-name = "Yomaru_" # commes first in file naming
+rv-brand = "Ext"    # comes secodn in file naming
 # exclusive-patches = true                               # exclude all patches by default. default: false
 version = "18.32.39"         # latest or auto
 # build-mode = "both"          # apk = "apk" or magisk zip = "module"
