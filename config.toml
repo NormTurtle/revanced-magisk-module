@@ -69,7 +69,7 @@ included-patches = " custom-speed-overlay alternative-thumbnails bypass-ambient-
 # add-splash-animation dosen't work with custom-branding-icon
 excluded-patches = " custom-branding-icon-revancify-blue custom-branding-icon-revancify-red custom-seekbar-color disable-auto-captions disable-landscape-mode enable-debug-logging enable-tablet-mini-player enable-tablet-navigation-bar hide-autoplay-preview hide-captions-button hide-channel-avatar-section hide-load-more-button hide-seekbar translations "
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # apkmirror-arch = "arm64-v8a"   # its giving error on most
 
