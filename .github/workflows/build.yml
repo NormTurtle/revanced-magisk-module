@@ -1,4 +1,3 @@
-
 name: Build Modules
 on:
   workflow_call:
@@ -61,7 +60,6 @@ jobs:
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build.tmp
 
-          
       - name: Upload modules to release
         uses: svenstaro/upload-release-action@v2
         with:
@@ -73,17 +71,6 @@ jobs:
           file_glob: true
           overwrite: true
 
-      - name: Upload Assets 
-        uses: svenstaro/upload-release-action@v2
-        with:
-          file: "assets/Config.json"
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-         # body: "This is my assets upload TExt"
-          asset_name: "Config.json"
-          tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
-          # file_glob: true
-          # overwrite: true
-          
       - name: Update changelog and Magisk update json
         id: update_config
         run: |
@@ -113,7 +100,6 @@ jobs:
 
           find . -name "*-update.json" | grep . || : >dummy-update.json
 
-            
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: update
