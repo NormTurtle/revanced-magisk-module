@@ -36,14 +36,6 @@ build-mindetach-module = true
 # included-patches = "higher-seekbar-height amoled custom-branding-icon-mmt hide-end-screen-overlay hide-navigation-buttons hide-player-button-background hide-navigation-label hide-end-screen-overlay enable-new-thumbnail-preview  enable-new-splash-animation force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter language-switch  translations materialyou"
 # excluded-patches = "custom-branding-icon-revancify-blue disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec "
 #
-=======
-[YouTube]
-build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
-included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
-version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
->>>>>>> upstream/main
 
 # [Music-X] # Music - Advanced  YT-Advanced
 # rv-brand = "O-Music-Advanced"
