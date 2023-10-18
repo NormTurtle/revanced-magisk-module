@@ -69,7 +69,7 @@ jobs:
           release_name: ReVancedEx
           tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
           file_glob: true
-          overwrite: true
+          overwrite: false
 
       - name: Upload Assets 
         uses: svenstaro/upload-release-action@v2
