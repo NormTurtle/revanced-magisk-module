@@ -36,6 +36,14 @@ build-mindetach-module = true
 # included-patches = "higher-seekbar-height amoled custom-branding-icon-mmt hide-end-screen-overlay hide-navigation-buttons hide-player-button-background hide-navigation-label hide-end-screen-overlay enable-new-thumbnail-preview  enable-new-splash-animation force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter language-switch  translations materialyou"
 # excluded-patches = "custom-branding-icon-revancify-blue disable-quic-protocol enable-tablet-mini-player force-opus-codec force-vp9-codec "
 #
+# you can use rvmm-config-gen to generate a config
+
+[YouTube]
+build-mode = "apk"
+excluded-patches = ""
+included-patches = ""
+version = "auto"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 
 #  ╭─────────────────────────╮
