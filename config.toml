@@ -13,22 +13,24 @@ rv-brand = "Ext"                                       # comes secodn in file na
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-# build-mode = "both"          # apk = "apk" or magisk zip = "module"
+# build-mode = "both"                                 # apk = "apk" or magisk zip = "module"
 apkmirror-arch = "arm64-v8a"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-# exclusive-patches = true                               # exclude all patches by default. default: false
+# exclusive-patches = true                            # exclude all patches by default. default: false
 included-patches = "'Custom branding icon MMT' 'Custom branding name YouTube'"
-exclusive-patches = true
+excluded-patches = "'Custom branding icon Revancify Blue' 'Custom branding icon Revancify Red'"
+# exclusive-patches = true    # remove all default patches
 
-# [MusicRex]
-# rv-brand = "YTM"
-# # app-name = "MoMaru"
-# module-prop-name = "ytm-rvx"
-# patches-source = "inotia00/revanced-patches"
-# integrations-source = "inotia00/revanced-integrations"
-# cli-source = "inotia00/revanced-cli"
-# build-mode = "both"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-# uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-# apkmirror-arch = "arm64-v8a"
+
+[MusicRex]
+rv-brand = "Ext"
+app-name = "MoMaru"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+apkmirror-arch = "arm64-v8a"
+included-patches = "'Custom branding icon MMT'"
+excluded-patches = "'Custom branding icon Revancify Blue' 'Custom branding icon Revancify Red'"
