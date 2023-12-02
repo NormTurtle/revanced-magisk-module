@@ -1,10 +1,10 @@
 [
         {
-                "patchName": "Custom branding name YouTube",
+                "patchName": "Custom branding YouTube name",
                 "options": [
                         {
-                                "key": "AppName",
-                                "value": "YoMaruExt"
+                                "key": "YouTubeAppName",
+                                "value": "YoMaruExT"
                         }
                 ]
         },
@@ -41,19 +41,6 @@
                         {
                                 "key": "OutlineIcon",
                                 "value": "true"
-                        }
-                ]
-        },
-        {
-                "patchName": "Custom branding name YouTube Music",
-                "options": [
-                        {
-                                "key": "AppNameLauncher",
-                                "value": "MomaruExt"
-                        },
-                        {
-                                "key": "AppNameNotification",
-                                "value": "Musix"
                         }
                 ]
         }
