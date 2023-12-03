@@ -1,47 +1,7 @@
-[
-        {
-                "patchName": "Custom branding YouTube name",
-                "options": [
-                        {
-                                "key": "YouTubeAppName",
-                                "value": "YoMaruExT"
-                        }
-                ]
-        },
-        {
-                "patchName": "Custom double tap length",
-                "options": [
-                        {
-                                "key": "DoubleTapLengthArrays",
-                                "value": "0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6,7,8,9,10,50,100,150,200"
-                        }
-                ]
-        },
-        {
-                "patchName": "Overlay buttons",
-                "options": [
-                        {
-                                "key": "OutlineIcon",
-                                "value": "true"
-                        }
-                ]
-        },
-        {
-                "patchName": "Premium heading",
-                "options": [
-                        {
-                                "key": "UsePremiumHeading",
-                                "value": "true"
-                        }
-                ]
-        },
-        {
-                "patchName": "SponsorBlock",
-                "options": [
-                        {
-                                "key": "OutlineIcon",
-                                "value": "true"
-                        }
-                ]
-        }
-]
+[ {
+  "patchName" : "Custom branding YouTube name",
+  "options" : [ {
+    "key" : "YouTubeAppName",
+    "value" : "YoMaruExT"
+  } ]
+} ]
