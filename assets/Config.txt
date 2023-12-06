@@ -1,6 +1,6 @@
 "bypass_ambient_mode_restrictions": true,
 "custom_playback_speeds": "0.5\n1.0\n1.25\n1.5\n1.75\n2.0\n2.25\n2.5\n2.75\n3.0\n4.0\n5.0\n6.0\n7.0",
-"custom_player_overlay_opacity": 75,
+"custom_player_overlay_opacity": 85,
 "default_playback_speed": 1,
 "default_video_quality_mobile": 360,
 "disable_default_playback_speed_live": false,
