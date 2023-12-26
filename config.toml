@@ -17,9 +17,11 @@ cli-source = "inotia00/revanced-cli"
 apkmirror-arch = "arm64-v8a"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+included-patches = "'Change start page' 'Add splash animation' 'Custom branding YouTube name' 'Enable debug logging' 'Enable song search' 'Hide animated button background' 'SponsorBlock' 'Custom double tap length' 'Hide double tap overlay filter' 'MaterialYou' 'Premium heading' 'Shorts outline button'"
+excluded-patches = "'Alternative thumbnails' 'Custom seekbar color' 'Disable auto captions' 'Disable landscape mode' 'Enable gradient loading screen' 'Enable language switch' 'Enable new thumbnail preview' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Force fullscreen' 'Hide auto player popup panels' 'Hide channel avatar section' 'Hide time stamp' 'Translations'"
 # exclusive-patches = true                            # exclude all patches by default. default: false
-included-patches = "'Change start page' 'Add splash animation' 'Custom branding icon MMT' 'Custom branding YouTube name' 'Enable debug logging' 'Enable song search' 'Hide animated button background' 'SponsorBlock' 'Custom double tap length' 'Hide double tap overlay filter' 'MaterialYou' 'Premium heading' 'Shorts outline button'"
-excluded-patches = "'Custom branding icon Revancify Red' 'Custom branding icon Revancify Blue' 'Alternative thumbnails' 'Custom seekbar color' 'Disable auto captions' 'Disable landscape mode' 'Enable gradient loading screen' 'Enable language switch' 'Enable new thumbnail preview' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Force fullscreen' 'Hide auto player popup panels' 'Hide channel avatar section' 'Hide time stamp' 'Translations'"
+# included-patches = "'Change start page' 'Add splash animation' 'Custom branding icon MMT' 'Custom branding YouTube name' 'Enable debug logging' 'Enable song search' 'Hide animated button background' 'SponsorBlock' 'Custom double tap length' 'Hide double tap overlay filter' 'MaterialYou' 'Premium heading' 'Shorts outline button'"
+# excluded-patches = "'Custom branding icon Revancify Red' 'Custom branding icon Revancify Blue' 'Alternative thumbnails' 'Custom seekbar color' 'Disable auto captions' 'Disable landscape mode' 'Enable gradient loading screen' 'Enable language switch' 'Enable new thumbnail preview' 'Enable tablet mini player' 'Enable tablet navigation bar' 'Force fullscreen' 'Hide auto player popup panels' 'Hide channel avatar section' 'Hide time stamp' 'Translations'"
 
 # [MusicRex]
 # rv-brand = "Ext"
