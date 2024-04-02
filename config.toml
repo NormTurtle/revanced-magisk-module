@@ -16,19 +16,19 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 #  │ Revanced Extenends here │       RVX
 #  ╰─────────────────────────╯
 
-[ReX] # RVX = Revanced Extended
-app-name = "Yomaru"                                  # commes first in file naming
-rv-brand = "Ext-rvx"                                 # comes secodn in file naming
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-integrations"
-# cli-source = "inotia00/revanced-cli"
-# build-mode = "both"                                 # apk = "apk" or magisk zip = "module"
-apkmirror-arch = "arm64-v8a"
-version = "auto"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-included-patches = "'Add splash animation' 'Remove player controls background' 'Custom branding' 'Change header' 'Enable slide to seek'  'MaterialYou' 'Hide double tap overlay filter' 'Hide animated button background' 'Hide player button background' 'Spoof player parameters'"
-excluded-patches = "'Remember video quality' 'Restore old video quality menu' 'Disable auto captions' 'Tablet mini player' 'Copy video URL'"
+# [ReX] # RVX = Revanced Extended
+# app-name = "Yomaru"                                  # commes first in file naming
+# rv-brand = "Ext-rvx"                                 # comes secodn in file naming
+# patches-source = "YT-Advanced/ReX-patches"
+# integrations-source = "YT-Advanced/ReX-integrations"
+# # cli-source = "inotia00/revanced-cli"
+# # build-mode = "both"                                 # apk = "apk" or magisk zip = "module"
+# apkmirror-arch = "arm64-v8a"
+# version = "auto"
+# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+# excluded-patches = "'Remember video quality' 'Restore old video quality menu' 'Disable auto captions' 'Tablet mini player' 'Copy video URL'"
+# included-patches = "'Add splash animation' 'Remove player controls background' 'Custom branding' 'Change header' 'Enable slide to seek'  'MaterialYou' 'Hide double tap overlay filter' 'Hide animated button background' 'Hide player button background' 'Spoof player parameters'"
 # exclusive-patches = true                            # exclude all patches by default. default: false
 
 [RaX] # RAX = anndea Revanced Extended
@@ -41,8 +41,9 @@ integrations-source = "anddea/revanced-integrations"
 apkmirror-arch = "arm64-v8a"
 version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-included-patches = "'Add splash animation' 'Alternative thumbnails' 'Ambient mode switch' 'Append time stamps information' 'Change player flyout panel toggles' 'Change start page' 'Custom branding heading' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom playback speed' 'Disable shorts on startup' 'Visual preferences icons'"
-excluded-patches = ""
+included-patches = "'Add splash animation' 'Alternative thumbnails' 'Ambient mode switch' 'Append time stamps information' 'Change player flyout panel toggles' 'Change start page' 'Custom branding heading' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom playback speed' 'Disable shorts on startup' 'Visual preferences icons''MaterialYou'"
+
+# excluded-patches = ""
 # excluded-patches = "'Remember video quality' 'Restore old video quality menu' 'Disable auto captions' 'Tablet mini player' 'Copy video URL'"
 
 
