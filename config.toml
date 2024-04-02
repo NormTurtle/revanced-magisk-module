@@ -27,7 +27,7 @@ apkmirror-arch = "arm64-v8a"
 version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-included-patches = "'Add splash animation','Remove player controls background' 'Custom branding' 'Change header' 'Enable slide to seek', 'MaterialYou', 'Hide double tap overlay filter', 'Hide animated button background','Hide player button background','Spoof player parameters'"
+included-patches = "'Add splash animation' 'Remove player controls background' 'Custom branding' 'Change header' 'Enable slide to seek'  'MaterialYou' 'Hide double tap overlay filter' 'Hide animated button background' 'Hide player button background' 'Spoof player parameters'"
 excluded-patches = "'Remember video quality' 'Restore old video quality menu' 'Disable auto captions' 'Tablet mini player' 'Copy video URL'"
 
 # included-patches = "'Change start page' 'Add splash animation' 'Custom branding YouTube name' 'Enable debug logging' 'Enable song search' 'Hide animated button background' 'SponsorBlock' 'Custom double tap length' 'Hide double tap overlay filter' 'MaterialYou' 'Premium heading' 'Shorts outline button'"
