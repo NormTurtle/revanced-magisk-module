@@ -41,7 +41,7 @@ integrations-source = "anddea/revanced-integrations"
 apkmirror-arch = "arm64-v8a"
 version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-included-patches = "'Add splash animation' 'Alternative thumbnails' 'Ambient mode switch' 'Append time stamps information' 'Change player flyout panel toggles' 'Change start page' 'Custom branding heading' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom playback speed' 'Disable shorts on startup' 'Visual preferences icons''MaterialYou'"
+included-patches = "'Add splash animation' 'Alternative thumbnails' 'Ambient mode switch' 'Append time stamps information' 'Change player flyout panel toggles' 'Change start page' 'Custom branding heading' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom playback speed' 'Disable shorts on startup' 'Visual preferences icons' 'MaterialYou'"
 
 # excluded-patches = ""
 # excluded-patches = "'Remember video quality' 'Restore old video quality menu' 'Disable auto captions' 'Tablet mini player' 'Copy video URL'"
