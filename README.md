@@ -4,11 +4,11 @@
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rvc_magisk)
 [![CI](https://github.com/j-hc/revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/j-hc/revanced-magisk-module/actions/workflows/ci.yml)
 
-Extensive ReVanced builder  
+Extensive ReVanced builder
 
 Get the [latest CI release](https://github.com/j-hc/revanced-magisk-module/releases).
 
-Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules. 
+Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules.
 
 <details><summary><big>Features</big></summary>
 <ul>
@@ -51,3 +51,12 @@ $ git clone https://github.com/j-hc/revanced-magisk-module
 $ cd revanced-magisk-module
 $ ./build.sh
 ```
+## Resources
+### [RaX](https://github.com/anddea/revanced-patches)
+https://github.com/anddea/revanced-patches
+
+### [ReX](https://github.com/YT-Advanced/revanced-patches)
+https://github.com/YT-Advanced/revanced-patches
+
+### [MicroG](https://github.com/WSTxda/MicroG-RE)
+https://github.com/WSTxda/MicroG-RE
