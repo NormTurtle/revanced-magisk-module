@@ -31,21 +31,32 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 # included-patches = "'Add splash animation' 'Remove player controls background' 'Custom branding' 'Change header' 'Enable slide to seek'  'MaterialYou' 'Hide double tap overlay filter' 'Hide animated button background' 'Hide player button background' 'Spoof player parameters'"
 # exclusive-patches = true                            # exclude all patches by default. default: false
 
-[RaX] # RAX = anndea Revanced Extended
-app-name = "Yomaru"                                  # commes first in file naming
-rv-brand = "Ext-rax"                                 # comes secodn in file naming
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
-# cli-source = "inotia00/revanced-cli"
-# build-mode = "both"                                 # apk = "apk" or magisk zip = "module"
-apkmirror-arch = "arm64-v8a"
-version = "19.09.37"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-included-patches = "'Alternative thumbnails' 'Ambient mode switch' 'Append time stamps information' 'Change player flyout panel toggles' 'Change start page' 'Custom branding heading' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom playback speed' 'Disable shorts on startup' 'Visual preferences icons' 'MaterialYou'"
+# [RaX] # RAX = anndea Revanced Extended
+# app-name = "Yomaru"                                  # commes first in file naming
+# rv-brand = "Ext-rax"                                 # comes secodn in file naming
+# patches-source = "anddea/revanced-patches"
+# integrations-source = "anddea/revanced-integrations"
+# # cli-source = "inotia00/revanced-cli"
+# # build-mode = "both"                                 # apk = "apk" or magisk zip = "module"
+# apkmirror-arch = "arm64-v8a"
+# version = "19.09.37"
+# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+# included-patches = "'Alternative thumbnails' 'Ambient mode switch' 'Append time stamps information' 'Change player flyout panel toggles' 'Change start page' 'Custom branding heading' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom playback speed' 'Disable shorts on startup' 'Visual preferences icons' 'MaterialYou'"
 
 # excluded-patches = ""
 # excluded-patches = "'Remember video quality' 'Restore old video quality menu' 'Disable auto captions' 'Tablet mini player' 'Copy video URL'"
 
+[RrX] # RAX = anndea Revanced Extended
+app-name = "Yomaru"                                   # commes first in file naming
+rv-brand = "Ext-rrx"                                  # comes secodn in file naming
+patches-source = "rufusin/revanced-patches"
+integrations-source = "rufusin/revanced-integrations"
+# cli-source = "inotia00/revanced-cli"
+# build-mode = "both"                                 # apk = "apk" or magisk zip = "module"
+apkmirror-arch = "arm64-v8a"
+version = "auto"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+# included-patches = "'Alternative thumbnails' 'Ambient mode switch' 'Append time stamps information' 'Change player flyout panel toggles' 'Change start page' 'Custom branding heading' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom playback speed' 'Disable shorts on startup' 'Visual preferences icons' 'MaterialYou'"
 
 # [MusicRex]
 # rv-brand = "Ext"
