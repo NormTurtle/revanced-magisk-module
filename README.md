@@ -52,8 +52,8 @@ $ cd revanced-magisk-module
 $ ./build.sh
 ```
 ## Resources
-### [RaX](https://github.com/anddea/revanced-patches)
-https://github.com/anddea/revanced-patches
+### [RvX](https://github.com/inotia00/revanced-patches)
+https://github.com/inotia00/revanced-patches
 
 ### [ReX](https://github.com/YT-Advanced/revanced-patches)
 https://github.com/YT-Advanced/revanced-patches
@@ -62,4 +62,3 @@ https://github.com/YT-Advanced/revanced-patches
 > https://github.com/WSTxda/MicroG-RE/releases
 
 https://github.com/ReVanced/GmsCore/releases
-

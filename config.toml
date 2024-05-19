@@ -1,15 +1,7 @@
-logging-to-file = true       # enables logging of every patch process to a seperate file
 enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
-# [YouTube]
-# build-mode = "apk"
-# # excluded-patches = ""
-# # included-patches = ""
-# version = "auto"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
+# you can use rvmm-config-gen to generate a config
 #  ╭─────────────────────────╮
 #  │ Revanced Extenends here │       RVX
 #  ╰─────────────────────────╯
@@ -25,9 +17,11 @@ apkmirror-arch = "arm64-v8a"
 version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 excluded-patches = "'Remember video quality' 'Disable auto captions' 'Tablet mini player'"
 included-patches = "'Add splash animation' 'Remove player controls background' 'Custom branding' 'Change header' 'Enable slide to seek'  'MaterialYou' 'Hide double tap overlay filter' 'Hide animated button background' 'Hide player button background' 'Spoof player parameters'"
 # exclusive-patches = true                            # exclude all patches by default. default: false
+
 
 # [ReX] #
 # app-name = "Yomaru"                                  # commes first in file naming
@@ -43,21 +37,6 @@ included-patches = "'Add splash animation' 'Remove player controls background' '
 # excluded-patches = "'Remember video quality' 'Disable auto captions' 'Tablet mini player'"
 # included-patches = "'Add splash animation' 'Remove player controls background' 'Custom branding' 'Change header' 'Enable slide to seek'  'MaterialYou' 'Hide double tap overlay filter' 'Hide animated button background' 'Hide player button background' 'Spoof player parameters'"
 # # exclusive-patches = true                            # exclude all patches by default. default: false
-
-# [RaX] # RAX = anndea Revanced Extended
-# app-name = "Yomaru"                                  # commes first in file naming
-# rv-brand = "Ext-rax"                                 # comes secodn in file naming
-# patches-source = "anddea/revanced-patches"
-# integrations-source = "anddea/revanced-integrations"
-# # cli-source = "inotia00/revanced-cli"
-# # build-mode = "both"                                 # apk = "apk" or magisk zip = "module"
-# apkmirror-arch = "arm64-v8a"
-# version = "auto"
-# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-# included-patches = "'Ambient mode switch' 'Append time stamps information' 'Change player flyout panel toggles' 'Change start page' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom playback speed' 'Disable shorts on startup' 'Visual preferences icons' 'MaterialYou'"
-
-# excluded-patches = ""
-# excluded-patches = "'Remember video quality' 'Restore old video quality menu' 'Disable auto captions' 'Tablet mini player' 'Copy video URL'"
 
 # [MusicRex]
 # rv-brand = "Ext"

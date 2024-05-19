@@ -71,6 +71,17 @@ jobs:
           file_glob: true
           overwrite: true
 
+      - name: Upload Assets
+        uses: svenstaro/upload-release-action@v2
+        with:
+          file: "assets/Config.txt"
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+         # body: "This is my assets upload TExt"
+          asset_name: "Config.txt"
+          tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+          # file_glob: true
+          # overwrite: true
+
       - name: Update changelog and Magisk update json
         id: update_config
         run: |
