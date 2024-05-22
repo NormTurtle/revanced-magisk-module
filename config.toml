@@ -7,8 +7,8 @@ enable-magisk-update = false # set this to false if you do not want to receive u
 #  ╰─────────────────────────╯
 
 [RvX] #
-app-name = "Yomaru"                                                                                                                                                                                                                                                                  # commes first in file naming
-rv-brand = "Ext-rvx"                                                                                                                                                                                                                                                                 # comes secodn in file naming
+app-name = "Yomaru"
+rv-brand = "Ext-rvx"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
@@ -21,7 +21,6 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 excluded-patches = "'Remember video quality' 'Disable auto captions' 'Tablet mini player'"
 included-patches = "'Add splash animation' 'Remove player controls background' 'Custom branding' 'Change header' 'Enable slide to seek'  'MaterialYou' 'Hide double tap overlay filter' 'Hide animated button background' 'Hide player button background' 'Spoof player parameters'"
 # exclusive-patches = true                            # exclude all patches by default. default: false
-
 
 # [ReX] #
 # app-name = "Yomaru"                                  # commes first in file naming
