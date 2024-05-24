@@ -2,6 +2,20 @@ enable-magisk-update = false # set this to false if you do not want to receive u
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 # you can use rvmm-config-gen to generate a config
+
+#  ╭─────────────────────────╮
+#  │ Revanced Extenends here │       RVX
+#  ╰─────────────────────────╯
+[YouTube]
+app-name = "Yomaru"
+rv-brand = "Revanced"
+version = "auto"
+build-mode = "apk"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+excluded-patches = ""
+included-patches = ""
+
+
 #  ╭─────────────────────────╮
 #  │ Revanced Extenends here │       RVX
 #  ╰─────────────────────────╯
