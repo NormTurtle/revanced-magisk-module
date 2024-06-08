@@ -4,6 +4,10 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-java@v3
+        with:
+          distribution: "zulu"
+          java-version: "17"
       - run: |
           git clone "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" .
           ./build-module.sh
