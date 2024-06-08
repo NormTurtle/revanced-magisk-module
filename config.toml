@@ -1,21 +1,29 @@
 
+>>>>>>> 4cab1a8 (added my archive as apk provider)
+
 =======
+logging-to-file = true      # enables logging of every patch process to a seperate file
+enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 3
 logging-to-file = true      # enables logging of every patch process to a seperate file
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-#          ╭──────────────────────────────────────────────────────────╮
-#          │ config                                                   │
-#          ╰──────────────────────────────────────────────────────────╯
+
 
 >>>>>>> 45ad278 (Update config.toml with RvX,ReX,expremental)
 
+#          ╭──────────────────────────────────────────────────────────╮
+#          │ config                                                   │
+#          ╰──────────────────────────────────────────────────────────╯
 logging-to-file = true         # enables logging of every patch process to a seperate file
 enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
 build-mindetach-module = false
+
+
+<<<<<<< HEAD
+#  ╭──────────╮
+=======
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
-#  ╭──────────╮
 #  │ Revanced │
 #  ╰──────────╯
 # [Revanced]
@@ -24,7 +32,15 @@ build-mindetach-module = false
 # version = "latest"
 # included-patches = "remove-player-controls-background"
 # excluded-patches = "tablet-mini-player theme"
+[YouTube]
 
+>>>>>>> 4cab1a8 (added my archive as apk provider)
+
+build-mode = "both"                                                                     # 'both', 'apk' or 'module'
+excluded-patches = ""                                                                   # space-seperated patches to exclude (multiline strings are not supported)
+included-patches = ""                                                                   # space-seperated patches to include (non-excluded patches are included by default)
+version = "auto"                                                                        # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 #  ╭─────────────────────────╮
 #  │ Revanced Extenends here │
 #  ╰─────────────────────────╯
@@ -42,11 +58,18 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 <<<<<<< HEAD
 build-mode = "both"app-name = "O_EX-inotia00"
+
+<<<<<<< HEAD
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+=======
+
+>>>>>>> 4cab1a8 (added my archive as apk provider)
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+build-mode = "both"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-arch = "both"
 
 [YouTube-Extended]
@@ -56,18 +79,19 @@ integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music]
 build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-arch = "both"
 
 [Twitter]
 build-mode = "apk"
-uptodown-dlurl = "https://twitter.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [Twitch]
+<<<<<<< HEAD
 uptodown-dlurl = "https://twitch-app.en.uptodown.com/android"
 
 [TikTok]
@@ -76,10 +100,28 @@ uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
 [Reddit]
 
 =======
+
+=======
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "apk"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
+
+[TikTok]
+enabled = false
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
+
+[Reddit]
+
+>>>>>>> 4cab1a8 (added my archive as apk provider)
+
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
+
+
+
+
+>>>>>>> 45ad278 (Update config.toml with RvX,ReX,expremental)
 
 # [YouTube-Extended]
 # patches-source = "inotia00/revanced-patches"
@@ -88,11 +130,6 @@ apkmirror-arch = "apk"
 # rv-brand = "ReVanced Extended"
 # build-mode = "apk"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-
-
-
->>>>>>> 45ad278 (Update config.toml with RvX,ReX,expremental)
-
 #  ╭───────────────────╮
 #  │ ReVanced Advanced │
 #  ╰───────────────────╯
