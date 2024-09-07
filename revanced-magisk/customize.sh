@@ -38,7 +38,7 @@ done
 am force-stop "$PKG_NAME"
 
 INS=true
-if BASEPATH=$(pm path "$PKG_NAME"); then
+if BASEPATH=$(pm path "$PKG_NAME" 2>&1 </dev/null); then
 	BASEPATH=${BASEPATH##*:} BASEPATH=${BASEPATH%/*}
 	if [ "${BASEPATH:1:6}" = system ]; then
 		ui_print "* $PKG_NAME is a system app"
@@ -90,19 +90,13 @@ install() {
 		abort "$op"
 	fi
 	settings put global verifier_verify_adb_installs 1
-	if BASEPATH=$(pm path "$PKG_NAME"); then
+	if BASEPATH=$(pm path "$PKG_NAME" 2>&1 </dev/null); then
 		BASEPATH=${BASEPATH##*:} BASEPATH=${BASEPATH%/*}
 	else
 		abort "ERROR: install $PKG_NAME manually and reflash the module"
 	fi
 }
-if [ $INS = true ]; then
-	if ! install; then
-		if ! install; then
-			abort
-		fi
-	fi
-fi
+if [ $INS = true ] && ! install; then abort; fi
 
 BASEPATHLIB=${BASEPATH}/lib/${ARCH}
 if [ -z "$(ls -A1 "$BASEPATHLIB")" ]; then
@@ -118,8 +112,8 @@ ui_print "* Setting Permissions"
 set_perm "$MODPATH/base.apk" 1000 1000 644 u:object_r:apk_data_file:s0
 
 ui_print "* Mounting $PKG_NAME"
-mkdir -p "$NVBASE/rvhc"
-RVPATH=$NVBASE/rvhc/${MODPATH##*/}.apk
+mkdir -p "/data/adb/rvhc"
+RVPATH=/data/adb/rvhc/${MODPATH##*/}.apk
 mv -f "$MODPATH/base.apk" "$RVPATH"
 
 if ! op=$(mm mount -o bind "$RVPATH" "$BASEPATH/base.apk" 2>&1); then
@@ -132,10 +126,6 @@ nohup cmd package compile --reset "$PKG_NAME" >/dev/null 2>&1 &
 
 ui_print "* Cleanup"
 rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
-
-for s in "uninstall.sh" "service.sh"; do
-	sed -i "2 i\NVBASE=${NVBASE}" "$MODPATH/$s"
-done
 
 ui_print "* Done"
 ui_print "  by j-hc (github.com/j-hc)"
