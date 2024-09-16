@@ -16,7 +16,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 excluded-patches = ""
-included-patches = ""
+included-patches = "'Custom branding'"
 
 
 #  ╭─────────────────────────╮
@@ -35,8 +35,9 @@ version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-excluded-patches = "'Remember video quality' 'Disable auto captions' 'Tablet mini player'"
-included-patches = "'Add splash animation' 'Remove player controls background' 'Custom branding' 'Change header' 'Enable slide to seek'  'MaterialYou' 'Hide double tap overlay filter' 'Hide animated button background' 'Hide player button background' 'Spoof player parameters'"
+included-patches = "'Remove player controls background' 'Custom branding' 'Enable slide to seek'"
+excluded-patches = "'Disable auto captions' 'Hide captions button' 'Disable rolling number animations' 'Hide album cards' 'Hide filter bar' 'Enable debugging'"
+
 # exclusive-patches = true                            # exclude all patches by default. default: false
 
 # [ReX] #
