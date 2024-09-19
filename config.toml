@@ -1,4 +1,4 @@
-enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -7,16 +7,16 @@ enable-magisk-update = false # set this to false if you do not want to receive u
 #  ╭─────────────────────────╮
 #  │ Revanced Extenends here │       RVX
 #  ╰─────────────────────────╯
-[YouTube]
-app-name = "Yomaru"
-rv-brand = "Revanced"
-version = "auto"
-build-mode = "apk"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-excluded-patches = ""
-included-patches = "'Custom branding'"
+# [YouTube]
+# app-name = "Yomaru"
+# rv-brand = "Revanced"
+# version = "auto"
+# build-mode = "apk"
+# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+# # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+# excluded-patches = ""
+# included-patches = "'Custom branding'"
 
 
 #  ╭─────────────────────────╮
@@ -35,7 +35,7 @@ version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-included-patches = "'Remove player controls background' 'Custom branding' 'Enable slide to seek'"
+included-patches = "'Custom branding' 'Enable slide to seek'"
 excluded-patches = "'Disable auto captions' 'Hide captions button' 'Disable rolling number animations' 'Hide album cards' 'Hide filter bar' 'Enable debugging'"
 
 # exclusive-patches = true                            # exclude all patches by default. default: false
