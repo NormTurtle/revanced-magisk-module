@@ -3,11 +3,11 @@
     "patchName": "Custom branding",
     "options": [
       {
-        "key": "appName",
+        "key": "AppName",
         "value": "YoMaruExT"
       },
       {
-        "key": "iconPath",
+        "key": "AppIcon",
         "value": "icons"
       }
     ]
