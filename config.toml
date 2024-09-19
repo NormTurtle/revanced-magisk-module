@@ -35,7 +35,7 @@ version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-included-patches = "'Custom branding' 'Enable slide to seek'"
+included-patches = "'Custom branding name for YouTube' 'Custom branding icon for YouTube' 'Custom branding' 'Enable slide to seek'"
 excluded-patches = "'Disable auto captions' 'Hide captions button' 'Disable rolling number animations' 'Hide album cards' 'Hide filter bar' 'Enable debugging'"
 
 # exclusive-patches = true                            # exclude all patches by default. default: false
