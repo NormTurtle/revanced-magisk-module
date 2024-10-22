@@ -25,6 +25,19 @@ jobs:
           fetch-depth: 0
           submodules: true
 
+      - name: Fetch and merge updates from upstream
+        run: |
+          git remote add fork https://github.com/j-hc/revanced-magisk-module || true
+          git fetch fork
+          git checkout -b update-from-fork || git checkout update-from-fork
+          git merge fork/main --allow-unrelated-histories -X theirs --no-commit
+          git restore --source=HEAD -- config.toml options.json CONFIG.md README.md .github\workflows\build.yml
+          git commit -m "Merged updates from ofoo, keeping config files untouched" || true
+          git checkout main
+          git merge update-from-ofoo
+          git push origin main
+          git pull origin main
+
       - name: Update config
         if: ${{ inputs.from_ci }}
         run: |
@@ -145,3 +158,4 @@ jobs:
           MSG=${MSG:0:9450}
           POST="https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
           curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "disable_web_page_preview=true" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "$POST"
+
