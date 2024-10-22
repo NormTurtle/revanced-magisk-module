@@ -30,5 +30,3 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 included-patches = "'Hide Shorts dimming'"
 # included-patches = "'Remove player controls background' 'Custom branding' 'Enable slide to seek'"
 # excluded-patches = "'Disable auto captions' 'Hide captions button' 'Disable rolling number animations' 'Hide album cards' 'Hide filter bar' 'Enable debugging'"
-
-# you can use rvmm-config-gen to generate a config
