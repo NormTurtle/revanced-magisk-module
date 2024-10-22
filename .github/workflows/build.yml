@@ -29,6 +29,8 @@ jobs:
         run: |
           git remote add fork https://github.com/j-hc/revanced-magisk-module || true
           git fetch fork
+          git config user.email "omix.ok@gmail.com"
+          git config user.name "Normturtle"
           git checkout -b update-from-fork || git checkout update-from-fork
           git merge fork/main --allow-unrelated-histories -X theirs --no-commit
           git restore --source=HEAD -- config.toml options.json CONFIG.md README.md .github/workflows/build.yml
