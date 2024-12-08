@@ -5,21 +5,15 @@ parallel-jobs = 1
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
-
-[YouTube]
-app-name = "Yomaru"
-rv-brand = "Revanced"
+[Yomaru]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 arch = "arm64-v8a"
 build-mode = "apk"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+included-patches = "'Enable slide to seek' 'Custom branding' 'Remove player controls background'"
 excluded-patches = ""
-included-patches = ""
-patcher-args = """\
-  -OAppIcon=icons \
-  -OAppName=YoMaruExT \
-   """
+patcher-args = "-OappName=YoMaru -OiconPath=icons "
 
 
 # # │ Revanced Extenends here │       RVX
@@ -38,4 +32,3 @@ patcher-args = """\
 # # excluded-patches = "'Custom branding icon for YouTube'"
 # excluded-patches = ""
 # included-patches = ""
-
