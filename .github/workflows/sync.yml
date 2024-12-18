@@ -1,6 +1,8 @@
 name: Sync
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 15 */3 * *"  # at 3:00PM every 3 day
 
 jobs:
   sync:
@@ -29,7 +31,7 @@ jobs:
         run: |
           git checkout -B update-from-fork || git checkout update-from-fork
           git merge fork/main --allow-unrelated-histories -X theirs --no-commit || true
-          git restore --source=HEAD -- config.toml README.md .github/workflows/ci.yml
+          git restore --source=HEAD -- config.toml README.md
           git commit -a -m "sync: upstream" || echo "No changes to commit"
 
       - name: Merge to main and push
