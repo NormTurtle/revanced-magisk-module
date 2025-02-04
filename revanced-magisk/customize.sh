@@ -151,7 +151,7 @@ if ! op=$(mm mount -o bind "$RVPATH" "$BASEPATH/base.apk" 2>&1); then
 fi
 am force-stop "$PKG_NAME"
 ui_print "* Optimizing $PKG_NAME"
-nohup cmd package compile --reset "$PKG_NAME" >/dev/null 2>&1 &
+mm nohup cmd package compile --reset "$PKG_NAME" >/dev/null 2>&1 &
 
 ui_print "* Cleanup"
 rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
