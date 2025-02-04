@@ -1,4 +1,5 @@
 . "$MODPATH/config"
+. "$MODPATH/common.sh"
 
 ui_print ""
 if [ -n "$MODULE_ARCH" ] && [ "$MODULE_ARCH" != "$ARCH" ]; then
@@ -19,23 +20,12 @@ RVPATH=/data/adb/rvhc/${MODPATH##*/}.apk
 
 set_perm_recursive "$MODPATH/bin" 0 0 0755 0777
 
-if su -M -c true >/dev/null 2>/dev/null; then
-	alias mm='su -M -c'
-else alias mm='nsenter -t1 -m'; fi
-
 mm grep -F "$PKG_NAME" /proc/mounts | while read -r line; do
 	ui_print "* Un-mount"
 	mp=${line#* } mp=${mp%% *}
 	mm umount -l "${mp%%\\*}"
 done
 am force-stop "$PKG_NAME"
-
-pmex() {
-	OP=$(pm "$@" 2>&1 </dev/null)
-	RET=$?
-	echo "$OP"
-	return $RET
-}
 
 if ! pmex path "$PKG_NAME" >&2; then
 	if pmex install-existing "$PKG_NAME" >&2; then
@@ -161,7 +151,7 @@ if ! op=$(mm mount -o bind "$RVPATH" "$BASEPATH/base.apk" 2>&1); then
 fi
 am force-stop "$PKG_NAME"
 ui_print "* Optimizing $PKG_NAME"
-nohup cmd package compile --reset "$PKG_NAME" >/dev/null 2>&1 &
+mm nohup cmd package compile --reset "$PKG_NAME" >/dev/null 2>&1 &
 
 ui_print "* Cleanup"
 rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
