@@ -2,6 +2,8 @@ Muisc-RvX (arm64-v8a): 8.12.53
 Muisc-RvX (arm-v7a): 8.12.53  
 Music (arm64-v8a): 8.05.51  
 Music (arm-v7a): 8.05.51  
+Reddit (arm64-v8a): 2025.12.0  
+Reddit (arm-v7a): 2025.12.0  
 Revanced (arm64-v8a): 20.07.39  
 Revanced (arm-v7a): 20.07.39  
 Spotify (arm64-v8a): 9.0.34.276  
