@@ -67,5 +67,6 @@ patcher-args = "-e 'Change package name' -OpackageNameReddit=com.yomaru.red -e '
 
 [Spotify]
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
 arch = "both"
 # included-patches = "'Spoof signature' 'Unlock Spotify Premium' 'Custom theme' 'Predictive back gesture' 'Remove screen capture restriction' 'Remove screenshot restriction' 'Export all activities' 'Spoof SIM country' 'Hide mock location' 'Spoof Wi-Fi connection' 'Export internal data documents provider'"
