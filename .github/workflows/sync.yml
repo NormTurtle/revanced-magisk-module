@@ -38,7 +38,12 @@ jobs:
         run: |
           git checkout main
           git merge update-from-fork --no-ff
-          git push origin main
+          # Use PAT to allow pushing workflow file changes (GITHUB_TOKEN cannot do this)
+          if [ -n "${{ secrets.SYNC_PAT }}" ]; then
+            git push https://${{ secrets.SYNC_PAT }}@github.com/${{ github.repository }}.git HEAD:main
+          else
+            git push origin HEAD:main 2>&1 || echo "⚠️ Note: To sync workflow changes, set SYNC_PAT secret with 'workflow' scope"
+          fi
 
       - name: Verify and finalize
         run: |
