@@ -38,19 +38,22 @@ jobs:
         run: |
           git checkout main
           git merge update-from-fork --no-ff
-          # Use PAT to allow pushing workflow file changes (GITHUB_TOKEN cannot do this)
-          # Debug: Check if SYNC_PAT secret is available
+          echo "📋 Files after merge:"
+          git status --short
+          # Keep our workflow files (don't sync upstream workflows)
+          echo "🔄 Resetting workflow files to local version..."
+          git checkout HEAD -- .github/workflows/
+          echo "✓ Workflow files reset"
+          echo "📋 Files after reset:"
+          git status --short
+          # Use PAT to allow pushing code changes (workflow files are now excluded)
           PAT_TOKEN="${{ secrets.SYNC_PAT }}"
           if [ -z "$PAT_TOKEN" ] || [ "$PAT_TOKEN" = "" ]; then
             echo "⚠️ WARNING: SYNC_PAT secret is not set or empty!"
-            echo "Without a PAT with 'workflows' scope, pushing workflow file changes will fail."
-            echo "To fix:"
-            echo "  1. Generate PAT at: https://github.com/settings/tokens"
-            echo "  2. Ensure 'workflow' scope is selected"
-            echo "  3. Add as SYNC_PAT secret: https://github.com/${{ github.repository }}/settings/secrets/actions"
+            echo "Without a PAT, pushing may fail."
             exit 1
           else
-            echo "✓ SYNC_PAT secret detected, using it for push"
+            echo "✓ SYNC_PAT secret detected, pushing changes..."
             git push "https://${PAT_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
           fi
 
