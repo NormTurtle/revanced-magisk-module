@@ -37,15 +37,19 @@ jobs:
       - name: Merge to main and push
         run: |
           git checkout main
-          git merge update-from-fork --no-ff
+          # Merge with --no-commit to prevent auto-commit
+          git merge update-from-fork --no-ff --no-commit || git merge update-from-fork --no-ff --allow-unrelated-histories --no-commit
           echo "📋 Files after merge:"
           git status --short
-          # Keep our workflow files (don't sync upstream workflows)
+          # Reset workflow files to local version BEFORE commit
           echo "🔄 Resetting workflow files to local version..."
-          git checkout HEAD -- .github/workflows/
+          git reset HEAD .github/workflows/
+          git checkout -- .github/workflows/
           echo "✓ Workflow files reset"
           echo "📋 Files after reset:"
           git status --short
+          # Now commit the merge with only code changes (disable GPG signing)
+          git commit --no-gpg-sign -m "Merge upstream updates"
           # Use PAT to allow pushing code changes (workflow files are now excluded)
           PAT_TOKEN="${{ secrets.SYNC_PAT }}"
           if [ -z "$PAT_TOKEN" ] || [ "$PAT_TOKEN" = "" ]; then
