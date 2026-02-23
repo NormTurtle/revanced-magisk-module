@@ -17,8 +17,8 @@ jobs:
 
       - name: Set up Git for sync
         run: |
-          git config user.email "Omix1.ok@gmail.com"
-          git config user.name "Omi"
+          git config user.email "noreply@github.com"
+          git config user.name "Sync Bot"
 
       - name: Add upstream remote and fetch
         run: |
